@@ -1,29 +1,29 @@
 {
   "label": "Homepage",
-  "title": "Hello from Tina + Docusaurus!",
-  "description": "Description will go into a meta tag in <head />",
+  "title": "qBot RPA Studio",
+  "description": "qBot RPA Studio, döküman web sayfasıdır.",
   "blocks": [
     {
       "document": "docs/intro.mdx",
-      "documentLabel": "Docusaurus Tutorial - 5min ⏱️",
+      "documentLabel": "Get Started ⏱️",
       "_template": "hero"
     },
     {
       "items": [
         {
-          "title": "Easy to Use",
-          "description": "Docusaurus was designed from the ground up to be easily installed and         used to get your website up and running quickly.\n",
-          "image": "/img/undraw_docusaurus_mountain.svg"
+          "title": "qbot® Hyperautomation",
+          "description": "qbot® Hyperautomation, süreçleri ve görevleri daha akıllı ve verimli bir şekilde otomatikleştirmek için yapay zeka ve makine öğrenimi, chatbot ve RPA gibi ileri teknolojilerin kullanan bir platformdur.",
+          "image": "/img/undraw_chat_bot_re_e2gj.svg"
         },
         {
-          "title": "Focus on What Matters",
-          "description": "Docusaurus lets you focus on your docs, and we'll do the chores. Go ahead and move your docs into the docs directory.\n",
-          "image": "/img/undraw_docusaurus_tree.svg"
+          "title": "qdisco ® : Process Discovery and Analysis",
+          "description": "Proses keşif araçlarımız ile proseslerinizi, gerçek operasyonlarınızı ve personelinizin faaliyetlerini ekranınız üzerinden 360° görüntüleyebilir, tüm gizli adımları ve sapmaları ortaya çıkarabilirsiniz.",
+          "image": "/img/undraw_data_reports_706v.svg"
         },
         {
-          "title": "Powered by React",
-          "description": "Extend or customize your website layout by reusing React. Docusaurus can         be extended while reusing the same header and footer.\n",
-          "image": "/img/undraw_docusaurus_react.svg"
+          "title": "qkart®: Corporate Payment Solutions",
+          "description": "Kurumsal ödeme çözümlerimiz ve ön ödemeli kart teklifimiz, işletmelere finansal işlemlerini güvenli ve verimli bir şekilde yönetmeleri için tasarlanmıştır.",
+          "image": "/img/undraw_credit_card_payments_re_qboh.svg"
         }
       ],
       "_template": "features"

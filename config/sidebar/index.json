@@ -6,77 +6,583 @@
       "_template": "doc"
     },
     {
-      "title": "Tutorial - Basics",
+      "title": "Features",
       "link": "generated",
       "items": [
         {
-          "document": "docs/tutorial-basics/create-a-page.mdx",
+          "document": "docs/features/features.mdx",
           "_template": "doc"
         },
         {
-          "document": "docs/tutorial-basics/create-a-document.mdx",
+          "document": "docs/features/output.mdx",
           "_template": "doc"
         },
         {
-          "document": "docs/tutorial-basics/create-a-blog-post.mdx",
+          "document": "docs/features/properties.mdx",
           "_template": "doc"
         },
         {
-          "document": "docs/tutorial-basics/deploy-your-site.mdx",
+          "document": "docs/features/solution-explorer.mdx",
           "_template": "doc"
         },
         {
-          "document": "docs/tutorial-basics/congratulations.mdx",
+          "document": "docs/features/toolbox.mdx",
+          "_template": "doc"
+        },
+        {
+          "document": "docs/features/workflow.mdx",
           "_template": "doc"
         }
       ],
       "_template": "category"
     },
     {
-      "title": "Tutorial - Extras",
+      "title": "Nodes",
       "link": "generated",
-      "items": [
+      "items": 
+      [
         {
-          "document": "docs/tutorial-extras/manage-docs-versions.mdx",
-          "_template": "doc"
-        },
-        {
-          "document": "docs/tutorial-extras/translate-your-site.mdx",
-          "_template": "doc"
-        }
-      ],
-      "_template": "category"
-    },
-    {
-      "title": "Nested Link",
-      "link": "none",
-      "items": [
-        {
-          "title": "Level 2",
+          "title": "Automation",
           "link": "none",
           "items": [
             {
-              "title": "Level 3",
-              "link": "none",
-              "items": [
-                {
-                  "document": "docs/test-page.mdx",
-                  "label": "",
-                  "_template": "doc"
-                }
-              ],
-              "_template": "category"
+              "document": "docs/nodes/Automation/click.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Automation/drag-drop.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Automation/keyboard.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Automation/scroll.mdx",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
+        },
+        {
+          "title": "Call Api",
+          "link": "none",
+          "items": [
+            {
+              "document": "docs/nodes/CallApi/call-api.mdx",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
+        },
+        {
+          "title": "Common",
+          "link": "none",
+          "items": [
+            {
+              "document": "docs/nodes/Common/null-page.mdx",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
+        },
+        {
+          "title": "Excel",
+          "link": "none",
+          "items": [
+            {
+              "document": "docs/nodes/Excel/create-excel.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Excel/csv-to-excel.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Excel/get-sheet-names.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Excel/insert.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Excel/open-excel.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Excel/pdf-to-string.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Excel/read-excel.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Excel/rename-sheet-name.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Excel/run-formul.mdx",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
+        },
+        {
+          "title": "File Management",
+          "link": "none",
+          "items": [
+            {
+              "document": "docs/nodes/FileManagement/clean-folder.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/FileManagement/copy-file.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/FileManagement/copy-folder.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/FileManagement/create-file.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/FileManagement/create-folder.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/FileManagement/delete-file.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/FileManagement/delete-folder.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/FileManagement/directory-info.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/FileManagement/download-file.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/FileManagement/file-exist.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/FileManagement/file-info.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/FileManagement/folder-exist.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/FileManagement/list-file.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/FileManagement/list-folder.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/FileManagement/move-file.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/FileManagement/move-folder.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/FileManagement/read-file.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/FileManagement/wait-file.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/FileManagement/write-file.mdx",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
+        },
+        {
+          "title": "Image",
+          "link": "none",
+          "items": [
+            {
+              "document": "docs/nodes/Image/open-image.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Image/read-image.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Image/snap-shot-image.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Image/snap-shot.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Image/wait-image.mdx",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
+        },
+        {
+          "title": "Integration",
+          "link": "none",
+          "items": [
+            {
+              "document": "docs/nodes/Integration/anti-captcha.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Integration/clear-queue-items.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Integration/delete-queue-item.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Integration/delete-queue.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Integration/get-next-queue-item.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Integration/get-queue-item.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Integration/run-api-connect.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Integration/wait-queue-item.mdx",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
+        },
+        {
+          "title": "Mail",
+          "link": "none",
+          "items": [
+            {
+              "document": "docs/nodes/Mail/mail-null-page.mdx",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
+        },
+        {
+          "title": "QBotRpaStudio",
+          "link": "none",
+          "items": [
+            {
+              "document": "docs/nodes/QBotRpaStudio/QBotRpaStudio-null-page.mdx",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
+        },
+        {
+          "title": "Remote File Management",
+          "link": "none",
+          "items": [
+            {
+              "document": "docs/nodes/RemoteFileManagement/create-client.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/RemoteFileManagement/create-folder.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/RemoteFileManagement/delete-file.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/RemoteFileManagement/delete-folder.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/RemoteFileManagement/download-file.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/RemoteFileManagement/execute-command.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/RemoteFileManagement/exist-file.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/RemoteFileManagement/exist-folder.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/RemoteFileManagement/list-folder.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/RemoteFileManagement/upload-file.mdx",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
+        },
+        {
+          "title": "Run",
+          "link": "none",
+          "items": [
+            {
+              "document": "docs/nodes/Run/Run-null-page.mdx",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
+        },
+        {
+          "title": "Script",
+          "link": "none",
+          "items": [
+            {
+              "document": "docs/nodes/Script/code-editor.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Script/code-exit.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Script/run-application.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Script/run-file.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Script/run-module.mdx",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
+        },
+        {
+          "title": "SQL",
+          "link": "none",
+          "items": [
+            {
+              "document": "docs/nodes/SQL/mssql-connection.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/SQL/mssql-query.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/SQL/mysql-connection.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/SQL/mysql-query.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/SQL/postgresql-connection.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/SQL/postgresql-query.mdx",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
+        },
+        {
+          "title": "UI",
+          "link": "none",
+          "items": [
+            {
+              "document": "docs/nodes/UI/UI-null-page.mdx",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
+        },
+        {
+          "title": "Utilities",
+          "link": "none",
+          "items": [
+            {
+              "document": "docs/nodes/Utilities/assign-to.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/break.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/breakable-do-while.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/breakable-while.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/clipboard.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/compress-archive.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/continue.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/date-time-format.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/date-time-now.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/date-time-plus-minus.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/dictionary-create.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/environment-variables.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/extract-archive.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/foreach-data-row.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/guid-generator.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/increase-decreae.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/jarray-to-datatable.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/read-json.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/regex.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/replace.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/speech.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/string-operation.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Utilities/string-to-data-time.mdx",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
+        },
+        {
+          "title": "WEB",
+          "link": "none",
+          "items": [
+            {
+              "document": "docs/nodes/Web/click-with-xpath.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Web/download-image.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Web/element-count.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Web/end-frame.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Web/extract-data-from-list.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Web/launch-website.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Web/read.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Web/select.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Web/start-iframe.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Web/switch-tab.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Web/table.mdx",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/nodes/Web/type.mdx",
+              "_template": "doc"
             }
           ],
           "_template": "category"
         }
       ],
       "_template": "category"
-    },
-    {
-      "title": "Tina.io",
-      "href": "https://tina.io/",
-      "_template": "link"
     }
   ]
 }

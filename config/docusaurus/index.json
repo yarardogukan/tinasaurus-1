@@ -13,30 +13,17 @@
       "position": "left"
     },
     {
-      "label": "MDX Page",
+      "label": "About Us",
       "link": "page",
       "docLink": "src/pages/Test-MDX-Page.mdx",
       "pageLink": "src/pages/Test-MDX-Page.mdx",
       "position": "left"
-    },
-    {
-      "label": "Docusaurus GitHub",
-      "link": "external",
-      "externalLink": "https://github.com/facebook/docusaurus",
-      "position": "right"
-    },
-    {
-      "label": "Tina",
-      "link": "external",
-      "externalLink": "https://tina.io/",
-      "position": "right"
     }
   ],
   "logo": {
-    "alt": "Tina",
-    "src": "/img/tina-icon.svg"
+    "alt": "qBot",
+    "src": "/img/logo.svg"
   },
-  "title": "Tinasaurus",
   "footer": {
     "style": "dark",
     "links": [
@@ -57,16 +44,6 @@
             "label": "Stack Overflow",
             "href": "https://stackoverflow.com/questions/tagged/docusaurus",
             "_template": "external"
-          },
-          {
-            "label": "Discord",
-            "href": "https://discordapp.com/invite/docusaurus",
-            "_template": "external"
-          },
-          {
-            "label": "Twitter",
-            "href": "https://twitter.com/docusaurus",
-            "_template": "external"
           }
         ]
       },
@@ -76,11 +53,6 @@
           {
             "label": "Blog",
             "_template": "blog"
-          },
-          {
-            "label": "GitHub",
-            "href": "https://github.com/facebook/docusaurus",
-            "_template": "external"
           }
         ]
       }

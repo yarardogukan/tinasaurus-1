@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+  iamdyarar3455/last-docu:
+    container_name: iamdyarar3455/tina-docu
+    restart: always
+    image: iamdyarar3455/tina-docu:v1
+    ports:
+      - "3000:3000" #3000:3000 portu çalıştırıldığında: ERR_EMPTY_RESPNSE hatası döndürüyor.

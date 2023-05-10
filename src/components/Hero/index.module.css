@@ -8,6 +8,14 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-image: url(../../../static/img/dogukan-robot-qbot-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-color: #cccccc;
+  height: 450px;
+  text-shadow: 2px 2px blue;
+  
 }
 
 @media screen and (max-width: 996px) {
@@ -17,7 +25,8 @@
 }
 
 .buttons {
-  display: flex;
+  display:inline-block;
   align-items: center;
   justify-content: center;
+  background-color: black;
 }

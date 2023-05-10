@@ -86,8 +86,8 @@ const formatNavbarItem = (item, subnav = false) => {
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: docusaurusData.title || "qBotRpaStudio",
-  tagline: docusaurusData.tagline || "Bu döküman sitesinde, aklınıza takılan tüm sorunlara karşılık bulabilirsiniz. Başlamak için aşağıdaki butona tıklayabilirsiniz!",
+  title: docusaurusData.title || "qBot RPA Studio",
+  tagline: docusaurusData.tagline || "Empower Your Business Through Digital Transformation",
   url: docusaurusData.url || "https://tinasaurus.vercel.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",

@@ -1,6 +1,6 @@
 {
   "label": "Homepage",
-  "title": "qBot RPA Studio",
+  "title": "Home",
   "description": "qBot RPA Studio, döküman web sayfasıdır.",
   "blocks": [
     {
@@ -12,17 +12,17 @@
       "items": [
         {
           "title": "qbot® Hyperautomation",
-          "description": "qbot® Hyperautomation, süreçleri ve görevleri daha akıllı ve verimli bir şekilde otomatikleştirmek için yapay zeka ve makine öğrenimi, chatbot ve RPA gibi ileri teknolojilerin kullanan bir platformdur.",
+          "description": "qbot® Hyperautomation is a platform that utilizes advanced technologies such as artificial intelligence, machine learning, chatbots, and RPA to automate processes and tasks in a smarter and more efficient way.",
           "image": "/img/undraw_chat_bot_re_e2gj.svg"
         },
         {
           "title": "qdisco ® : Process Discovery and Analysis",
-          "description": "Proses keşif araçlarımız ile proseslerinizi, gerçek operasyonlarınızı ve personelinizin faaliyetlerini ekranınız üzerinden 360° görüntüleyebilir, tüm gizli adımları ve sapmaları ortaya çıkarabilirsiniz.",
+          "description": "With our process discovery tools, you can view your processes, actual operations, and your staff's activities in 360 degrees on your screen, and uncover all hidden steps and deviations.",
           "image": "/img/undraw_data_reports_706v.svg"
         },
         {
           "title": "qkart®: Corporate Payment Solutions",
-          "description": "Kurumsal ödeme çözümlerimiz ve ön ödemeli kart teklifimiz, işletmelere finansal işlemlerini güvenli ve verimli bir şekilde yönetmeleri için tasarlanmıştır.",
+          "description": "Our enterprise payment solutions and prepaid card offerings are designed to help businesses manage their financial transactions securely and efficiently.",
           "image": "/img/undraw_credit_card_payments_re_qboh.svg"
         }
       ],

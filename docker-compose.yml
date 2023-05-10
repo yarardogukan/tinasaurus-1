@@ -4,6 +4,6 @@ services:
   tina-docu:
     container_name: tina-docu
     restart: always
-    image: iamdyarar3455/tina-docu:v1
+    image: iamdyarar3455/tinasaurus:v2
     ports:
       - "3000:3000"

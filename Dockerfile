@@ -1,14 +1,6 @@
-FROM node:18.15.0
-
-RUN apt-get update
-
-RUN apt-get install curl -y
-
-RUN apt-get install git -y
+FROM node:18.15.0 AS build
 
 WORKDIR /usr/src/app
-
-RUN node -v
 
 COPY . .
 
@@ -16,7 +8,14 @@ RUN yarn install
 
 RUN yarn run build
 
+FROM busybox:1.35 as deploy
+
+RUN adduser -D static
+USER static
+WORKDIR /home/static
+
+COPY --from=build /usr/src/app/build/ ./
+
 EXPOSE 3000
 
-RUN chmod +x /usr/src/app/entrypoint.sh
-ENTRYPOINT ["/bin/bash", "/usr/src/app/entrypoint.sh"]
+CMD ["busybox", "httpd", "-f", "-v", "-p", "3000"]
